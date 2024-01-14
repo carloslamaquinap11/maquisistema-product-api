@@ -45,7 +45,7 @@ El patrón Singleton es un patrón de diseño que pertenece a la categoría de p
 
 ## SOLID
 #### Interface Segregation Principle (ISP)
-#### Es uno de los principios SOLID del diseño orientado a objetos. Hace hincapié en que una clase no debe estar obligada a implementar interfaces que no utiliza. En otras palabras, una clase no debe estar obligada a proporcionar implementaciones para métodos que no necesita o utiliza. Tal es el caso del uso de un repositorio genérico y repositorio por la clase Product, donde hay métodos que son específicos para el repositorio ProductRepository pero no tienen correspondencia necesaria con IGenericRepository.
+Es uno de los principios SOLID del diseño orientado a objetos. Hace hincapié en que una clase no debe estar obligada a implementar interfaces que no utiliza. En otras palabras, una clase no debe estar obligada a proporcionar implementaciones para métodos que no necesita o utiliza. Tal es el caso del uso de un repositorio genérico y repositorio por la clase Product, donde hay métodos que son específicos para el repositorio ProductRepository pero no tienen correspondencia necesaria con IGenericRepository.
 
 #### Single Responsibility Principle
 El principio de responsabilidad única (SRP) es uno de los principios SOLID del diseño orientado a objetos. Establece que una clase debe tener una sola razón para cambiar, lo que significa que una clase debe tener una sola responsabilidad. En otras palabras, una clase debe tener un solo trabajo o función, y debe encapsular esa responsabilidad. Tal es el caso de los CommandHandler y QueryHandler quen tienen la única responsabilidad de manipular el comando o query que tienen asignado.
