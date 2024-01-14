@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.32" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Maquisistema.Domain\Maquisistema.Domain.csproj" />
+    <ProjectReference Include="..\Maquisistema.Shared\Maquisistema.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
